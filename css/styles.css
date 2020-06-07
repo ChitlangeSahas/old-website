@@ -46,6 +46,20 @@ body {
     text-align: center;
 }
 
+.center-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-text{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 /*Gallery*/
 /*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
 
