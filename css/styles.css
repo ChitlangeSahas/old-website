@@ -39,7 +39,7 @@ body {
 
 .no_border_button {
     cursor: pointer;
-    border: none;
+    /*border: none;*/
 }
 
 .nav-item{
