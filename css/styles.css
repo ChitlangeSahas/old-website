@@ -2,8 +2,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-.bold{
-	font-weight: 500 !important;
+.bold {
+    font-weight: 500 !important;
 }
 
 .navbar {
@@ -33,6 +33,20 @@ body {
     margin-right: 4rem;
 }
 
+.max-width {
+    max-width: 90%;
+}
+
+.button_brand {
+    background: url(./img/logo_2.png) no-repeat !important; 
+    cursor: pointer;
+    border: none;
+}
+
+.nav-item{
+    text-align: center;
+}
+
 /*Gallery*/
 /*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
 
@@ -52,11 +66,13 @@ body {
     padding: 10px;
     color: #333;
 }
+
 .gallery ol {
     list-style: none;
     width: inherit;
     padding: 0px;
 }
+
 .gallery li {
     position: relative;
     width: inherit;
@@ -67,19 +83,23 @@ body {
 }
 
 .gallery li:nth-child(1) {
-    background-image: url(https://visualhunt.com/photos/m/8/she-walks-with-tigers.jpg);   
+    background-image: url(https://visualhunt.com/photos/m/8/she-walks-with-tigers.jpg);
 }
+
 .gallery li:nth-child(2) {
     background-image: url(https://visualhunt.com/photos/xl/2/king-melt.jpg);
 }
+
 .gallery li:nth-child(3) {
     background-image: url(https://visualhunt.com/photos/m/8/slowatcoffee.jpg);
 }
+
 .gallery li:nth-child(4) {
     background-image: url(https://visualhunt.com/photos/m/8/3mousses-p17.jpg);
 }
+
 .gallery li:nth-child(5) {
-    background-image: url(https://visualhunt.com/photos/m/2/monster-soup.jpg);  
+    background-image: url(https://visualhunt.com/photos/m/2/monster-soup.jpg);
 }
 
 .gallery a {
@@ -89,6 +109,7 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 .info {
     position: absolute;
     bottom: 0;
@@ -96,9 +117,11 @@ body {
     padding: 10px 15px;
     color: #ffffff;
 }
+
 .info h3 {
     font-size: 2em;
 }
+
 .info p {
     font-size: 0.9em;
 }
@@ -113,20 +136,25 @@ body {
 
 
 @media screen and (min-width: 800px) {
-    
+
     .gallery li:hover {
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         z-index: 5;
     }
+
     .gallery a {
         -webkit-transition: background-color 500ms ease;
         transition: background-color 500ms ease;
     }
+
     .gallery a:hover {
         background-color: rgba(0, 0, 0, 0);
     }
+
     .info h3 {
         font-size: 1.2em;
     }
-}*/
+}
+
+*/
