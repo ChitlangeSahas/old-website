@@ -34,11 +34,10 @@ body {
 }
 
 .max-width {
-    max-width: 90%;
+    max-width: 100%;
 }
 
-.button_brand {
-    background: url(./img/logo_2.png) no-repeat !important; 
+.no_border_button {
     cursor: pointer;
     border: none;
 }
