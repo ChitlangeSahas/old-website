@@ -148,7 +148,10 @@ body {
         height: 400px;
     }
     h4{
-        font-size: 1em;
+        font-size: 2em;
+    }
+    h5{
+        font-size: 0.8em;
     }
 }
 
