@@ -97,7 +97,8 @@ body {
 
 .gallery li:nth-child(1) {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
-    background-size: 120%;
+    /*background-size: 120%;*/
+    background-position: 0px;
 }
 
 .gallery li:nth-child(2) {
@@ -107,15 +108,18 @@ body {
 }
 
 .gallery li:nth-child(3) {
-    background-image: url(https://via.placeholder.com/600x600);
+    background-image: url(https://cdn.instructables.com/FKR/WDS9/IEKJ6FY2/FKRWDS9IEKJ6FY2.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
 }
 
 .gallery li:nth-child(4) {
-    background-image: url(https://via.placeholder.com/600x600);
+    background-image: url(https://cdn.instructables.com/FKJ/2FGA/I78VRH2R/FKJ2FGAI78VRH2R.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
+    background-position: 0px;
+
 }
 
 .gallery li:nth-child(5) {
-    background-image: url(https://via.placeholder.com/600x600);
+    background-image: url(https://cdn.instructables.com/FVY/TO7U/IHZ4SHA9/FVYTO7UIHZ4SHA9.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
+    background-position: 0px;
 }
 
 .gallery a {
@@ -129,7 +133,10 @@ body {
 .info {
     position: absolute;
     bottom: 0;
-    left: 0;
+    /*top: 0;*/
+    /*top: 50%;*/
+	/*left: 50%;*/
+	/*transform: translate(-50%, -50%);*/
     padding: 10px 15px;
     color: #ffffff;
 }
