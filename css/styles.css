@@ -96,23 +96,26 @@ body {
 }
 
 .gallery li:nth-child(1) {
-    background-image: url(https://visualhunt.com/photos/m/8/she-walks-with-tigers.jpg);
+    background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
+    background-size: 120%;
 }
 
 .gallery li:nth-child(2) {
-    background-image: url(https://visualhunt.com/photos/xl/2/king-melt.jpg);
+    background-image: url(https://cdn.instructables.com/FBS/E9JH/IVO3IEIL/FBSE9JHIVO3IEIL.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
+	/*background-size: 120%;*/
+	background-position: 0px;
 }
 
 .gallery li:nth-child(3) {
-    background-image: url(https://visualhunt.com/photos/m/8/slowatcoffee.jpg);
+    background-image: url(https://via.placeholder.com/600x600);
 }
 
 .gallery li:nth-child(4) {
-    background-image: url(https://visualhunt.com/photos/m/8/3mousses-p17.jpg);
+    background-image: url(https://via.placeholder.com/600x600);
 }
 
 .gallery li:nth-child(5) {
-    background-image: url(https://visualhunt.com/photos/m/2/monster-soup.jpg);
+    background-image: url(https://via.placeholder.com/600x600);
 }
 
 .gallery a {
