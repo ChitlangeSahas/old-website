@@ -142,7 +142,7 @@ body {
 }
 
 .info h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .info p {
@@ -180,6 +180,7 @@ body {
         height: 400px;
         width: 50%;
     }
+    
 }
 
 
