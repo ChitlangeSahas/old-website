@@ -104,7 +104,7 @@ body {
 .gallery li:nth-child(2) {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     /*background-size: 120%;*/
-    background-position: 0px;
+    background-position: -60px;
 }
 
 .gallery li:nth-child(3) {
