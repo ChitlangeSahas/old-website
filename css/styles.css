@@ -95,6 +95,7 @@ body {
     background-size: cover;
 }
 
+
 .gallery li:nth-child(1) {
     background-image: url(../img/uniwheel.png);
     /*background-size: 120%;*/
@@ -104,7 +105,7 @@ body {
 .gallery li:nth-child(2) {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     /*background-size: 120%;*/
-    background-position: -60px;
+    /*background-position: -40px;*/
 }
 
 .gallery li:nth-child(3) {
@@ -139,11 +140,7 @@ body {
 .info {
     position: absolute;
     bottom: 0;
-    /*top: 0;*/
-    /*top: 50%;*/
-	/*left: 50%;*/
-	/*transform: translate(-50%, -50%);*/
-    padding: 10px 15px;
+    padding: 10px 15px; 0 auto;
     color: #ffffff;
 }
 
@@ -190,9 +187,12 @@ body {
 }
 
 
+
+
 @media screen and (min-width: 800px) {
 
-    .gallery li:hover {
+    .gallery li:hover  {
+        /*Lift up effect*/
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         z-index: 5;
