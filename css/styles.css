@@ -102,19 +102,19 @@ body {
 
 
 .gallery li:nth-child(1) {
-    background-image: url(../img/uniwheel.png);
+    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
     background-size: 75%;
     /*background-position: 0px;*/
 }
 
 .gallery li:nth-child(2) {
-    background-image: url(../img/unicycle_app.png);
+    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/unicycle_app.png);
     /*background-position: 0px;*/
-    /*background-size: 60%;*/
+    background-size: 70%;
 }
 
 .gallery li:nth-child(3) {
-    background-image: url(../img/cellular_automaton.jpg);
+    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/cellular_automaton.jpg);
     background-position: 0px;
 }
 
