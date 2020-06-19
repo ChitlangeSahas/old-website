@@ -46,21 +46,22 @@ body {
     text-align: center;
 }
 
-.center-image{
+.center-image {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-.center-text{
+.center-text {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
-.pdf_resume{
-	height: 550px;
+
+.pdf_resume {
+    height: 550px;
 }
 
 /*Gallery*/
@@ -99,6 +100,7 @@ body {
 }
 
 
+
 .gallery li:nth-child(1) {
     background-image: url(../img/uniwheel.png);
     /*background-size: 120%;*/
@@ -106,31 +108,46 @@ body {
 }
 
 .gallery li:nth-child(2) {
+    background-image: url(../img/unicycle_app.png);
+    background-position: 0px;
+}
+
+.gallery li:nth-child(3) {
+    background-image: url(../img/cellular_automaton.jpg);
+    background-position: 0px;
+}
+
+
+
+
+.gallery li:nth-child(4) {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     /*background-size: 120%;*/
     /*background-position: -40px;*/
 }
 
-.gallery li:nth-child(3) {
+.gallery li:nth-child(5) {
     background-image: url(https://cdn.instructables.com/FBS/E9JH/IVO3IEIL/FBSE9JHIVO3IEIL.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
-	/*background-size: 120%;*/
-	background-position: 0px;
+    /*background-size: 120%;*/
+    background-position: 0px;
 }
 
-.gallery li:nth-child(4) {
+.gallery li:nth-child(6) {
     background-image: url(https://cdn.instructables.com/FKR/WDS9/IEKJ6FY2/FKRWDS9IEKJ6FY2.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
 }
 
-.gallery li:nth-child(5) {
+.gallery li:nth-child(7) {
     background-image: url(https://cdn.instructables.com/FKJ/2FGA/I78VRH2R/FKJ2FGAI78VRH2R.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     background-position: 0px;
 
 }
 
-.gallery li:nth-child(6) {
+.gallery li:nth-child(8) {
     background-image: url(https://cdn.instructables.com/FVY/TO7U/IHZ4SHA9/FVYTO7UIHZ4SHA9.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     background-position: 0px;
 }
+
+
 
 .gallery a {
     position: relative;
@@ -143,7 +160,8 @@ body {
 .info {
     position: absolute;
     bottom: 0;
-    padding: 10px 15px; 0 auto;
+    padding: 10px 15px;
+    0 auto;
     color: #ffffff;
 }
 
@@ -171,13 +189,16 @@ body {
         margin: auto !important;
         margin-top: 100px !important;
     }
-    .typewriter-text-align h1, h2{
+
+    .typewriter-text-align h1,
+    h2 {
         font-size: 2em;
     }
-    .resize_box{
+
+    .resize_box {
         height: 400px;
     }
-    
+
 
 }
 
@@ -188,9 +209,11 @@ body {
         height: 400px;
         width: 50%;
     }
-    .pdf_resume{
-	height: 1200px;
-}
+
+    .pdf_resume {
+        height: 1200px;
+    }
+
 }
 
 
@@ -198,7 +221,7 @@ body {
 
 @media screen and (min-width: 800px) {
 
-    .gallery li:hover  {
+    .gallery li:hover {
         /*Lift up effect*/
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
