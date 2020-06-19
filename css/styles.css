@@ -59,6 +59,9 @@ body {
   margin-right: auto;
   width: 70%;
 }
+.pdf_resume{
+	height: 550px;
+}
 
 /*Gallery*/
 /*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
@@ -174,6 +177,8 @@ body {
     .resize_box{
         height: 400px;
     }
+    
+
 }
 
 
@@ -183,7 +188,9 @@ body {
         height: 400px;
         width: 50%;
     }
-    
+    .pdf_resume{
+	height: 1200px;
+}
 }
 
 
