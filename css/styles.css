@@ -103,21 +103,20 @@ body {
 
 .gallery li:nth-child(1) {
     background-image: url(../img/uniwheel.png);
-    /*background-size: 120%;*/
+    background-size: 75%;
     /*background-position: 0px;*/
 }
 
 .gallery li:nth-child(2) {
     background-image: url(../img/unicycle_app.png);
-    background-position: 0px;
+    /*background-position: 0px;*/
+    background-size: 60%;
 }
 
 .gallery li:nth-child(3) {
     background-image: url(../img/cellular_automaton.jpg);
     background-position: 0px;
 }
-
-
 
 
 .gallery li:nth-child(4) {
@@ -214,6 +213,17 @@ body {
         height: 1200px;
     }
 
+    .gallery li:nth-child(2) {
+        background-image: url(../img/unicycle_app.png);
+        /*background-position: 0px;*/
+        background-size: 80%;
+    }
+
+    .gallery li:nth-child(1) {
+    background-image: url(../img/uniwheel.png);
+    background-size: 85%;
+    /*background-position: 0px;*/
+}
 }
 
 
