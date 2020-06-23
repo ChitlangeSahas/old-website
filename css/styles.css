@@ -93,6 +93,21 @@ body {
     opacity: 1;
 }
 
+.show_on_hover {
+    width: 85%;
+    height: 85%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+
+    display: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 /* Gallery */
 .gallery {
     position: relative;
@@ -208,7 +223,6 @@ body {
         height: 400px;
     }
 }
-
 
 @media screen and (min-width: 620px) {
     .gallery li {
