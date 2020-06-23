@@ -39,7 +39,6 @@ body {
 
 .no_border_button {
     cursor: pointer;
-    /*border: none;*/
 }
 
 .nav-item {
@@ -64,13 +63,7 @@ body {
     height: 550px;
 }
 
-/*Gallery*/
-/*@import url('https://fonts.googleapis.com/css?family=Lobster');*/
-
-
-
 /* Gallery */
-
 .gallery {
     position: relative;
     width: 100%;
@@ -99,8 +92,6 @@ body {
     background-size: cover;
 }
 
-
-
 .gallery li:nth-child(1) {
     background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
     background-size: 75%;
@@ -115,7 +106,6 @@ body {
     background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/cellular_automaton.jpg);
     background-position: 0px;
 }
-
 
 .gallery li:nth-child(4) {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
@@ -150,10 +140,9 @@ body {
 
 .info {
     position: absolute;
-    bottom: 0;
+    top: 0;
     padding: 10px 15px;
-    0 auto;
-    color: #ffffff;
+    color: black;
 }
 
 .info h3 {
@@ -167,7 +156,6 @@ body {
 .logo_image {
     display: inline;
 }
-
 
 @media screen and (max-width: 846px) {
     .logo_image {
@@ -189,8 +177,6 @@ body {
     .resize_box {
         height: 400px;
     }
-
-
 }
 
 
@@ -207,41 +193,43 @@ body {
 
     .gallery li:nth-child(2) {
         background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/unicycle_app.png);
-        /*background-position: 0px;*/
         background-size: 80%;
     }
 
     .gallery li:nth-child(1) {
-    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
-    background-size: 85%;
-    /*background-position: 0px;*/
+        background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
+        background-size: 85%;
+    }
 }
-}
-
-
-
 
 @media screen and (min-width: 800px) {
 
-    .gallery li:hover {
-        /*Lift up effect*/
-        -webkit-transform: scale(1.1);
-        transform: scale(1.1);
-        z-index: 5;
+    .show_on_hover {
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+
+        display: none;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
-    .gallery a {
-        -webkit-transition: background-color 500ms ease;
-        transition: background-color 500ms ease;
+    .bottom_right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: black;
     }
 
-    .gallery a:hover {
-        background-color: rgba(0, 0, 0, 0);
+    .gallery li:hover .show_on_hover {
+        display: block;
     }
 
     .info h3 {
-        font-size: 1.2em;
+        font-size: 1.8em;
     }
 }
-
-*/
