@@ -10,4 +10,6 @@
 
 6. Laptop: A DIY laptop using Raspberry Pi!
 
-7. 
+7. MEMS MIC: I made a MEMS Studio Mic and put it inside a coconut shell, hence the name! The quality of the audio was comparable to a 100 USD+ microphone!
+
+8. CNC: A CNC Laser Engraver using Arduino loaded with GRBL firmware, stepper motors from old DVD burners! The 250mW laser diode could etch on plastic and wood. 
