@@ -262,7 +262,7 @@ body {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 767px) {
 
     .show_on_hover {
         width: 85%;
