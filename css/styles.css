@@ -102,7 +102,7 @@ body {
     border-color: black;
 
     display: none;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -289,5 +289,19 @@ body {
         border-right: 5px solid #ffffff;
         border-left: 5px solid #ffffff;
         border-bottom: 10px solid #ffffff;
+    }
+
+    .show_on_hover {
+        width: 85%;
+        height: 85%;
+        background-color: white;
+        border-style: solid;
+        border-color: black;
+
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
