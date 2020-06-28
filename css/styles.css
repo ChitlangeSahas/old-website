@@ -151,12 +151,12 @@ body {
 }
 
 .gallery li:nth-child(1) {
-    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
+    background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/unicycle.png);
     background-size: 75%;
 }
 
 .gallery li:nth-child(2) {
-    background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/unicycle_app.png);
+    background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/unicycle_app.png);
     background-size: 70%;
 }
 
@@ -253,12 +253,12 @@ body {
     }
 
     .gallery li:nth-child(2) {
-        background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/unicycle_app.png);
+        background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/unicycle_app.png);
         background-size: 80%;
     }
 
     .gallery li:nth-child(1) {
-        background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/uniwheel.png);
+        background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/uniwheel.png);
         background-size: 85%;
     }
 }
