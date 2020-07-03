@@ -109,6 +109,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.hr_break{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /*Responsive, stacks the columns on top of each other instead of size to side.*/
 @media screen and (max-width: 600px) {
     .left {
