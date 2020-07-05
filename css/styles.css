@@ -114,7 +114,25 @@ body {
     margin-bottom: 50px;
 }
 
-/*Responsive, stacks the columns on top of each other instead of size to side.*/
+ol .hr_break{
+    margin: 0;
+    margin-bottom: 31px;
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+}
+
+.bottom_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px 15px;
+}
+
 @media screen and (max-width: 600px) {
     .left {
         width: 100%;
@@ -125,8 +143,6 @@ body {
     }
 }
 
-
-/* Gallery */
 .gallery {
     position: relative;
     width: 100%;
@@ -150,46 +166,48 @@ body {
     position: relative;
     width: inherit;
     height: 300px;
+}
+
+.gallery li a {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
 }
 
-.gallery li:nth-child(1) {
+.gallery li .uniwheel_background {
     background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/uniwheel.png);
-    background-size: 75%;
+    /*background-size: 75%;*/
 }
 
-.gallery li:nth-child(2) {
+.gallery li .uniwheel_app_background {
     background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/unicycle_app.png);
-    background-size: 70%;
+    background-size: 90%;
 }
 
-.gallery li:nth-child(3) {
+.gallery li .cellular_automaton_background {
     background-image: url(https://raw.githubusercontent.com/ChitlangeSahas/ChitlangeSahas.github.io/master/img/cellular_automaton.jpg);
     background-position: 0px;
 }
 
-.gallery li:nth-child(4) {
+.gallery li .torque_background {
     background-image: url(https://cdn.instructables.com/FAD/IY6Y/JIOUEE5Y/FADIY6YJIOUEE5Y.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
 }
 
-.gallery li:nth-child(5) {
+.gallery li .with_u_background {
     background-image: url(https://cdn.instructables.com/FBS/E9JH/IVO3IEIL/FBSE9JHIVO3IEIL.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     background-position: 0px;
 }
 
-.gallery li:nth-child(6) {
+.gallery li .pi_berry_background {
     background-image: url(https://cdn.instructables.com/FKR/WDS9/IEKJ6FY2/FKRWDS9IEKJ6FY2.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
 }
 
-.gallery li:nth-child(7) {
+.gallery li .coco_mic_background {
     background-image: url(https://cdn.instructables.com/FKJ/2FGA/I78VRH2R/FKJ2FGAI78VRH2R.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     background-position: 0px;
-
 }
 
-.gallery li:nth-child(8) {
+.gallery li .mr_engraver_background {
     background-image: url(https://cdn.instructables.com/FVY/TO7U/IHZ4SHA9/FVYTO7UIHZ4SHA9.LARGE.jpg?auto=webp&frame=1&width=1024&height=1024&fit=bounds);
     background-position: 0px;
 }
@@ -222,6 +240,17 @@ body {
 
 .project_title {
     margin-top: 30px;
+}
+
+.gallery .info-card {
+    position: relative;
+    display: block;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.hide_except_mobile {
+    display: block;
 }
 
 @media screen and (max-width: 846px) {
@@ -257,46 +286,26 @@ body {
         height: 1200px;
     }
 
-    .gallery li:nth-child(2) {
+    .gallery li .uniwheel_app_background {
         background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/unicycle_app.png);
         background-size: 80%;
     }
 
-    .gallery li:nth-child(1) {
+    .gallery li .uniwheel_background {
         background-image: url(https://rawcdn.githack.com/ChitlangeSahas/ChitlangeSahas.github.io/df59a395422995dfca181a41e8d41b1f6d20b990/img/uniwheel.png);
         background-size: 85%;
+    }
+
+    .hide_except_mobile {
+        display: none;
+    }
+
+    .gallery .info-card {
+        display: none;
     }
 }
 
 @media screen and (min-width: 767px) {
-
-    .show_on_hover {
-        width: 85%;
-        height: 85%;
-        background-color: white;
-        border-style: solid;
-        border-color: black;
-
-        display: none;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .bottom_right {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background-color: black;
-    }
-
-    .bottom_left {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        margin: 10px 15px;
-    }
 
     .gallery li:hover .show_on_hover {
         display: block;
@@ -312,21 +321,8 @@ body {
         border-bottom: 10px solid #ffffff;
     }
 
-    .show_on_hover {
-        width: 85%;
-        height: 85%;
-        background-color: white;
-        border-style: solid;
-        border-color: black;
-
-        display: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
     .project_title {
         margin-top: 0px;
     }
+
 }
